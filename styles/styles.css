@@ -1,0 +1,36 @@
+/*-- globals styles  */
+body{
+    background-color: #95cebb;
+    color:#100;
+}
+
+/*-- local styles */
+a{
+    text-decoration: none;
+    color: #43054C;
+}
+a:hover{
+    background-color:rgb(170, 230, 210) ;
+    border:1px solid black;
+    padding:5px;
+    border-radius: 10px;
+}
+hr{
+    color: #610000;
+}
+h2 ~ div{
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
+li{
+    line-height: 1.5;
+}
+img{
+    height: 30vh;
+    width:auto;
+}
+
+figcaption{
+    font: 400 10px  "Open Sans", sans-serif;
+}
